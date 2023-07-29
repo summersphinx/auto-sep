@@ -19,6 +19,7 @@ lib64/
 parts/
 sdist/
 var/
+secret/
 wheels/
 share/python-wheels/
 *.egg-info/
@@ -31,7 +32,7 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
-
+.cache
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
